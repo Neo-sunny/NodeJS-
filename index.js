@@ -6,8 +6,8 @@ function solveRect(l,b){
         if(err){
           console.log("ERROR: ", err.message);
         }else{
-          console.log("The area of rectangle is with l: "+l+" b: "+b+" is "+rectangle.area());
-          console.log("The perimeter of rectangle is with l: "+l+" b: "+b+" is "+rectangle.perimeter());
+          console.log("The area of rectangle  with l: "+l+" b: "+b+" is "+rectangle.area());
+          console.log("The perimeter of rectangle  with l: "+l+" b: "+b+" is "+rectangle.perimeter());
         }
   });
   console.log("This statement after the call to rect()");
